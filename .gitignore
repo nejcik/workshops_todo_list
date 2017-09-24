@@ -6,16 +6,24 @@
 
 # Ignore bundler config.
 /.bundle
-
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+/.ruby-version
+/.ruby-gemset
+/.rvmrc
+/.rbenv-gemsets
+/.rspec
+.DS_Store
 
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+
+# Custom configuration for local machines
+config/database.yml
+config/secrets.yml
+config/configuration.yml
+config/a9n/*.yml
 
 # Ignore Byebug command history file.
 .byebug_history
