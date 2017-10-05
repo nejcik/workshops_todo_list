@@ -1,9 +1,9 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html{
@@ -17,42 +17,42 @@ body{
 
 
 header{
-    box-sizing: border-box;
+  box-sizing: border-box;
 	text-align: center;
-    width: 100%;
-    padding: 25px 40px;
-    background-color: #673AB7;
-    overflow: hidden;
+  width: 100%;
+  padding: 25px 40px;
+  background-color: #673AB7;
+  overflow: hidden;
 }
 
 
 header h1{
-    float: left;
+  float: left;
 	font: normal 24px/1.5 'Open Sans', sans-serif;
 	color: #fff;
 }
 
 header a{
-    color:#fff;
-    float: right;
-    text-decoration: none;
-    display: inline-block;
-    padding: 13px 50px;
-    border-radius: 3px;
-    font: bold 14px/1 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    background-color:#F05283;
+  color:#fff;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 50px;
+  border-radius: 3px;
+  font: bold 14px/1 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  background-color:#F05283;
 
 }
 
 ul {
-    list-style: none;
-    border-bottom: 1px solid #EAEAEA;
-    background-color: #FFF;
-    padding: 20px;
-    margin-top: 0;
-    text-align: center;
-    margin-bottom: 75px;
+  list-style: none;
+  border-bottom: 1px solid #EAEAEA;
+  background-color: #FFF;
+  padding: 20px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 75px;
 }
 
 .button {
@@ -60,34 +60,34 @@ ul {
 }
 
 .button a{
-    text-decoration: none;
-    color: #FFF;
-    text-align: left;
-    background-color: #BCB8C2;
-    padding: 10px 16px;
-    border-radius: 2px;
-    opacity: 0.8;
-    font-size: 16px;
-    display: inline-block;
-    margin: 4px;
-    line-height: 1;
-    outline: none;
+  text-decoration: none;
+  color: #FFF;
+  text-align: left;
+  background-color: #BCB8C2;
+  padding: 10px 16px;
+  border-radius: 2px;
+  opacity: 0.8;
+  font-size: 16px;
+  display: inline-block;
+  margin: 4px;
+  line-height: 1;
+  outline: none;
 
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 ul li a.active{
-    background-color: #F05283;
-    pointer-events: none;
+  background-color: #F05283;
+  pointer-events: none;
 }
 
 ul li a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 
 ul li{
-    display: inline-block;
+  display: inline-block;
 }
 
 .list {
@@ -114,19 +114,19 @@ ul li{
 @media (max-width: 1000px) {
 
 
-    header h1{
-        float: none;
-    }
+  header h1{
+    float: none;
+  }
 
-    header a{
-        margin-top: 25px;
-        float: none;
-    }
+  header a{
+    margin-top: 25px;
+    float: none;
+  }
 
 }
 
 .main-content{
-    margin-bottom: 75px;
+  margin-bottom: 75px;
 }
 
 /* -- Demo ads -- */
