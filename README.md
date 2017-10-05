@@ -41,13 +41,13 @@ A teraz do dzieła - Twoja kolei!<br>
 Pamiętaj proszę, że nie oczekujemy setek linii kodu ;) <br>
 1. Przede wszystkim... **nie działa zapis *taska*...**
 * nie można zapisać nowego taska
-* sypie się spek kontrolera!
+* "nie do końca" działa test kontrolera
 * spróbuj znaleźć źródło błędu i poprawić. Podpowiem, że kodu do napisania nie ma dużo :)
 2. Dodanie czegoś nowego - **termin realizacji zadania**
 * Dodajmy możliwość określania terminu realizacji zadania
-* w tym celu - nowe pole na bazie
+* w tym celu - nowa kolumna w tabeli *tasks*
 * nowe pole w formularzu
-* posortować zadania na *index* po terminie
+* zmienić kolejność wyświetlania zadań na liście tak, aby te o najbliższym terminie realizacji znajdywały się najwyżej
 * wyświetlić w dowolny sposób (może być brzydko, nierówno, krzywo!) *deadline* na liście zadań
 
 ## Powodzenia!
