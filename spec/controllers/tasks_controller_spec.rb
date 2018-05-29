@@ -12,7 +12,7 @@ RSpec.describe TasksController, type: :controller do
   describe 'POST tasks' do
     context "for no task attributes given" do
       it 'renders new template' do
-        post :create, params: { task: { foo: 'bar' } }
+        post :create, params: { task: { foo: 'bar'} }
         expect(response).to be_success
         assert_template 'tasks/new'
       end
