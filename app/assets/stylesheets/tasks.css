@@ -146,3 +146,9 @@ ul li{
 .tz-link span{
 	color: #da431c;
 }
+
+/* DATE DEADLINE DEFAULT */
+.date{
+  color: red;
+  font: bold 20px/1 'Open Sans', sans-serif;
+}
