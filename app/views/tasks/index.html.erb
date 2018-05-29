@@ -20,11 +20,11 @@
               <td class='description'><%= task.description %></td>
             </tr>
             <tr>
-              <td rowspan='2', class='date'>
-                <% unless task.deadline.nil? %>
-                <%= task.deadline.strftime("%m/%d") %>
-                <% end %>                
-              </td>
+              <% unless task.deadline.nil? %>
+                <td rowspan='2', class="<%= task.deadline.past? ? 'date-outdated' : 'date' %>">
+                  <%= task.deadline.strftime("%m/%d") %>
+                </td>
+              <% end %>                
             </tr>
           </tbody>
         </table>

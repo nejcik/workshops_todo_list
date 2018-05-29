@@ -149,6 +149,11 @@ ul li{
 
 /* DATE DEADLINE DEFAULT */
 .date{
-  color: red;
+  color: green;
   font: bold 20px/1 'Open Sans', sans-serif;
+}
+
+.date-outdated {
+  color: red;
+  font: bold 25px/1 'Open Sans', sans-serif;  
 }
